@@ -7,5 +7,6 @@ public class HelloClient {
         factory.setAddress("http://localhost:5000/Hello");
         HelloWorld helloServer = factory.create(HelloWorld.class);
         System.out.println(helloServer.greetings(System.getProperty("user.name")));
+
     }
 }
